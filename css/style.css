@@ -136,7 +136,7 @@ footer{
 .green{
     background-color: rgb(111, 207, 111);
 }
-.relative > div > span{
+.relative > .discount > span{
     padding: 4px;
     margin-right: 3px;
     color: white;
@@ -150,4 +150,17 @@ footer{
 
 .price_old{
     text-decoration: line-through;
+}
+
+.item_2, .item_1{
+    position: absolute;
+}
+
+.item_2{
+    display: none;
+}
+
+.dress{
+    position: absolute;
+    bottom: 0;
 }
