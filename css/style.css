@@ -13,7 +13,7 @@ header{
     padding: 10px;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
 }
 
 section{
@@ -74,7 +74,7 @@ main > div{
     margin-top: 40px;
 }
 
-main > div > img{
+.item>img{
     width: 100%;
 }
 
@@ -113,21 +113,20 @@ footer{
     position: absolute;
     top: 5px;
     right: 0;
+    z-index: 5;
+    font-size: 2em;
+    padding: 5px 16px;
+    background-color: white;
 }
 
 .heart:hover{
     color:red;
 }
 
-.relative> div{
+.discount{
+    z-index: 4;
     position: absolute;
     bottom: 100px;
-}
-
-.heart{
-    font-size: 2em;
-    padding: 5px 10px;
-    background-color: white;
 }
 
 .red{
@@ -135,7 +134,7 @@ footer{
 }
 
 .green{
-    background-color: green;
+    background-color: rgb(111, 207, 111);
 }
 .relative > div > span{
     padding: 4px;
