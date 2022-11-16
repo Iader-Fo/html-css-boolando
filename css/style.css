@@ -5,13 +5,10 @@
 }
 
 header{
-    background-color: orangered;
-    padding: 15px;
-}
-
-footer{
-    background-color: rgb(190, 138, 138);
-    padding: 15px;
+    background-color: #ff6900;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
 }
 
 section{
@@ -20,9 +17,8 @@ section{
 }
 
 .container{
-    min-height: 50px;
-    background-color: white;
-    
+    min-height: 20px;
+    color: white;
 }
 
 .bordered{
@@ -39,6 +35,19 @@ section{
     width: 40%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.persona > a{
+    margin-right: 5px;
+}
+
+.icon > a{
+    margin-left: 5px;
+}
+
 .logo{
     width: 20%;
     text-align: center;
@@ -49,6 +58,7 @@ section{
 }
 
 main{
+    padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -63,6 +73,29 @@ main > div > img{
     width: 100%;
 }
 
+footer{
+    background-color: #1a1a1a;
+    padding: 15px;
+}
+
 .end{
     justify-content: space-between;
+}
+
+.info > a{
+    font-size: 0.8em;
+    padding-right:5px;
+}
+
+.info > p{
+    padding: 10px 0;
+}
+
+.other > p{
+    font-size: 0.8em;
+    padding: 10px 0;
+}
+
+.other > a{
+    padding-right:5px;
 }
