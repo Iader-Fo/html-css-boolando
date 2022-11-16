@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: orangered;
+    padding: 15px;
+}
+
+section{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.container{
+    min-height: 50px;
+    background-color: white;
+    
+}
+
+.bordered{
+    border: 1px dashed black;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persona, .icon{
+    width: 40%;
+}
+
+.logo{
+    width: 20%;
+    text-align: center;
+}
+
+.icon{
+    text-align: end;
+}
