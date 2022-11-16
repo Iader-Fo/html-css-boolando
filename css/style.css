@@ -9,6 +9,11 @@ header{
     padding: 15px;
 }
 
+footer{
+    background-color: rgb(190, 138, 138);
+    padding: 15px;
+}
+
 section{
     margin: auto;
     max-width: 1200px;
@@ -56,4 +61,8 @@ main > div{
 
 main > div > img{
     width: 100%;
+}
+
+.end{
+    justify-content: space-between;
 }
