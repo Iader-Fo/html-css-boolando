@@ -42,3 +42,18 @@ section{
 .icon{
     text-align: end;
 }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main > div{
+    width: 32%;
+    margin-top: 40px;
+}
+
+main > div > img{
+    width: 100%;
+}
