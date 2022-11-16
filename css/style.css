@@ -9,6 +9,7 @@ header{
     padding: 10px;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 section{
@@ -58,7 +59,7 @@ a{
 }
 
 main{
-    padding-top: 70px;
+    padding: 70px 0 40px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -98,4 +99,48 @@ footer{
 
 .other > a{
     padding-right:5px;
+}
+
+.relative{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.relative> div{
+    position: absolute;
+    bottom: 100px;
+}
+
+.heart{
+    font-size: 2em;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+.relative > div > span{
+    padding: 4px;
+    margin-right: 3px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.price_new{
+    color: red;
+    font-weight: bolder;
+}
+
+.price_old{
+    text-decoration: line-through;
 }
