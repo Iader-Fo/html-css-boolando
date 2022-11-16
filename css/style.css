@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     background-color: #ff6900;
     padding: 10px;
@@ -109,6 +113,10 @@ footer{
     position: absolute;
     top: 5px;
     right: 0;
+}
+
+.heart:hover{
+    color:red;
 }
 
 .relative> div{
