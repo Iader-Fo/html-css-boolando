@@ -1,115 +1,122 @@
-*{
-    margin: 0 ;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     background-color: #ff6900;
     padding: 10px;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 10;
 }
 
-section{
+section {
     margin: auto;
     max-width: 1200px;
 }
 
-.container{
+.container {
     min-height: 20px;
     color: white;
 }
 
-.bordered{
+/* .bordered{
     border: 1px dashed black;
-}
+} */
 
-.flex{
+.flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.persona, .icon{
+.persona,
+.icon {
     width: 40%;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.persona > a{
+.persona>a {
     margin-right: 5px;
 }
 
-.icon > a{
+.persona>a:hover {
+    text-decoration: underline;
+}
+
+.icon>a {
     margin-left: 5px;
 }
 
-.logo{
+.logo {
     width: 20%;
     text-align: center;
 }
 
-.icon{
+.icon {
     text-align: end;
 }
 
-main{
+main {
     padding: 70px 0 40px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-main > div{
-    width: 33%;
+main>div {
+    width: 32%;
     margin-top: 40px;
 }
 
-.item>img{
+.item>img {
     width: 100%;
 }
 
-footer{
+footer {
     background-color: #1a1a1a;
     padding: 15px;
 }
 
-.end{
+.end {
     justify-content: space-between;
 }
 
-.info > a{
+.info>a {
     font-size: 0.8em;
-    padding-right:5px;
+    padding-right: 5px;
 }
 
-.info > p{
+.info>p {
     padding: 10px 0;
 }
 
-.other > p{
+.other>p {
     font-size: 0.8em;
     padding: 10px 0;
 }
 
-.other > a{
-    padding-right:5px;
+.other>a {
+    padding-right: 5px;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.heart{
+.heart {
     position: absolute;
     top: 5px;
     right: 0;
@@ -119,48 +126,48 @@ footer{
     background-color: white;
 }
 
-.heart:hover{
-    color:red;
+.heart:hover {
+    color: red;
 }
 
-.discount{
+.discount {
     z-index: 4;
     position: absolute;
     bottom: 100px;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.green{
+.green {
     background-color: rgb(111, 207, 111);
 }
-.relative > .discount > span{
+
+.relative>.discount>span {
     padding: 4px;
     margin-right: 3px;
     color: white;
     font-size: 0.9em;
 }
 
-.price_new{
+.price_new {
     color: red;
     font-weight: bolder;
 }
 
-.price_old{
+.price_old {
     text-decoration: line-through;
 }
 
-.item_2, .item_1{
-    position: absolute;
-}
-
-.item_2{
+.item_2 {
     display: none;
 }
 
-.dress{
-    position: absolute;
-    bottom: 0;
+.item:hover .item_1 {
+    display: none;
+}
+
+.item:hover .item_2 {
+    display: inline-block;
 }
